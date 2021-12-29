@@ -98,6 +98,8 @@
   font-size: 14px;
   margin-left: 8px;
   margin-top:5px;
+  padding:2px 7px;
+  border-radius: 1px;
 }
 .location{
   width: 24%;
@@ -110,6 +112,7 @@
   margin:5px 5px;
   border-radius: 0px;
   padding: 2px 7px;
+  font-size: 13px
 }
 .tabledata-padding{
   padding-left:8%!important;
@@ -129,6 +132,7 @@
 .tabledata-padding p{
   color:#FFFFFF;
   font-family: 'Space Mono', monospace;
+  margin-bottom: 0px;
 }
 
 .location p{

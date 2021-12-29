@@ -7,7 +7,7 @@ import Bottomsection from './bottom-section';
  function home(){
     return(
         <>
-        <div className="container-fluid">
+        <div className="container">
         <Topsection/>
         <Tabledata />
         <Bottomsection />
