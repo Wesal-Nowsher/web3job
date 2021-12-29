@@ -153,8 +153,8 @@
 }
 .apply-btn button{
   background-color: #2FC135;
-  color:#FFFFFF;
-
+  color:#FFFFFF!important;
+  border-radius: 1px;
 }
 
 
@@ -221,7 +221,7 @@
   background-color: #FFFFFF;
   padding: 36px 48px;
   width: 44%;
-  border-radius: 20px;
+  border-radius: 15px;
   position: relative;
 }
 .white-section h5
