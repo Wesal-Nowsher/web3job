@@ -1,8 +1,21 @@
-import React from "react";
-
+import React, {useEffect, useState} from "react";
+import axios from "axios";
 import icons from '../../assets/icons.png';
 
- function tabledata(){
+ function Tabledata(){
+    
+    
+    useEffect(() => {
+      axios.get("https://api.kuratedao.xyz/set/12").then((res)=>{
+        // console.log("res:",res)
+        console.log("res:",JSON.parse(res && res.data))
+        if(res && res.data){
+            let parsedata=JSON.parse();
+            console.log("wesa", parsedata);
+        }
+
+      })
+      },[]);
     return(
         <>
             <div className="row">
@@ -214,5 +227,5 @@ import icons from '../../assets/icons.png';
     )
 }
 
-export default tabledata;
+export default Tabledata;
 
