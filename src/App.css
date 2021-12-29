@@ -25,6 +25,16 @@
 .bg-green-top{
   
 }
+.chevron-down1{
+  color: #FFFFFF;
+  background: #FFFFFF;
+  height: 10px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 24px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+}
 
 
 .top-main-section h1{
@@ -208,6 +218,7 @@
   padding: 36px 48px;
   width: 44%;
   border-radius: 20px;
+  position: relative;
 }
 .white-section h5
 {

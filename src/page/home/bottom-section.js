@@ -22,15 +22,15 @@ import BG3 from '../../assets/commas.png';
                                         Web3 Jobs helped me navigate the rising blockchain market and find myself a position
                                          that resonated with my own personal ambitions!
                                         </p>
-                                        <img />
-                                        {/* <img src={BG2} className="other-img" /> */}
+                                        <i className="fa fa-chevron-down chevron-down1"></i>
                                 </div>
-                               
+                                                            
                             </div>
                             <img src={BG3} className="other-img" />
                             <div className="file-photo-section">
                                 <div>
                                     <img src={BG1} />
+
                                 </div>
                                 <div className="profile-name-section">
                                     <h5>Lenilson</h5>
