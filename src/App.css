@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+.App{
+  background:black;
+  font-family: 'Space Mono', monospace;
+  height: 100%;
+}
+
+
+.top-main-section{
+  width: 42%;
+  margin-top: 5%;
+  min-height: 500px;
+}
+.bg-green-top{
+  
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 88%;
+    background-position-y: -42px;
+    background-position-x: 29px;
+}
+
+
+.top-main-section h1{
+  font-size: 41px;
+    font-family: 'Space Mono', monospace;
+    color: #F2FFF2;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+.top-main-section p.web3-jobs{
+  color:#2FC135;
+  font-family: 'Podkova', serif;
+
+}
+.top-main-section p{
+
+}
+.top-main-section p.little-text{
+  font-size: 15px;
+  font-family: 'Space Mono', monospace;
+  color: #F2FFF2;
+  font-weight: 300;
+  margin-bottom: 50px
+}
+.top-main-section .two-buttons{
+
+}
+.top-main-section .two-buttons button:first-child{
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  color: #C8FFCA;
+  font-weight: 300;
+  border: 1px solid #2FC135;
+  border-radius: 2px;
+  margin-right: 29px;
+  padding: 10px 25px
+}
+.top-main-section .two-buttons button:nth-child(2){
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  color: #F2FFF2;
+  font-weight: 300;
+  background-color: #2FC135;
+  border-radius: 2px;
+  padding: 10px 35px
+}
+
+.tags-button{
+  font-family: 'Space Mono', monospace;
+  width: 90%;
+  display: -webkit-inline-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tags-buttons-selected button{
+  font-family: 'Space Mono', monospace;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF!important;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-top:5px;
+}
+
+.location{
+  width: 24%;
+}
+.tags-button  button{
+  color:#A7A299!important;
+  border: 1px solid #A7A299;
+  margin:5px 5px;
+}
+.tabledata-padding{
+  padding-left:8%!important;
+  padding-right: 9%!important;
+  margin-top: 5%!important;
+}
+.tabledata-padding h4{
+  color:#2FC135;
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+
+}
+.tabledata-padding .row{ 
+  margin-top: 3%!important;
+  margin-bottom: 0%!important;
+}
+.tabledata-padding p{
+  color:#FFFFFF;
+  font-family: 'Space Mono', monospace;
+}
+
+.location p{
+  font-size: 14px;
+}
+
+.desifg p{
+  color:#FFFFFF;
+  font-family: 'Space Mono', monospace;
+}
+.logo img{
+  width: 65px;
+  height: 65px;
+  margin-top: -10px;
+}
+.desifg{
+  margin-left: 25px;  
+}
+.apply-btn button{
+  background-color: #2FC135;
+  color:#FFFFFF;
+
+}
+
+
+.bottomsection-padding{
+  padding-left:7%!important;
+  padding-right: 7%!important;
+  margin-top: 5%!important;
+  min-height: 500px;
+}
+
+.bottomsection-padding .row{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+
+}
+
+
+
+.bottomsection-padding .two-buttons button:first-child{
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  color: #C8FFCA;
+  font-weight: 300;
+  border: 1px solid #2FC135;
+  border-radius: 2px;
+  margin-right: 29px;
+  padding: 10px 25px
+}
+.bottomsection-padding .two-buttons button:nth-child(2){
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  color: #F2FFF2;
+  font-weight: 300;
+  background-color: #2FC135;
+  border-radius: 2px;
+  padding: 10px 35px
+}
+.other-img{
+  position: absolute;
+  right: 7%;
+  top: 50px;
+  opacity: 0.4;
+}
+.copyright-section{
+  margin-top: 20%;
+
+}
+.copyright-section p{
+  text-align: center;
+  color: #A7A299;
+  font-family: 'Space Mono', monospace;
+}
+
+.client-speaks{
+  color:#FFFFFF;
+  font-family: 'Space Mono', monospace;
+
+  font-weight: 700;
+  margin: 90px 0px 50px 100px;
+}
+
+.white-section {
+  background-color: #FFFFFF;
+  padding: 36px 48px;
+  width: 44%;
+  border-radius: 20px;
+}
+.white-section h5
+{
+     text-align: center;
+     margin-bottom: 30px;
+}
+.white-section p{
+  text-align: center;margin-bottom: 0px;
+}
+
+.file-photo-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  color:#FFFFFF;
+  gap: 30px;
+}

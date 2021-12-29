@@ -1,0 +1,248 @@
+@media (min-width: 320px) and (max-width: 529px) {
+    .header-menu-list{
+        display:none;
+    }
+    .header .row {
+        padding: 0 0px;
+        margin: 0 auto;
+    }
+    .three-bars{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .three-bars div{
+        border-bottom: 3px solid white;
+        width: 20px;
+        height: 8px;
+    }
+    .logo-image img{
+        width: 150px;
+            height: 58px;
+    }
+    .header-menu-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .invescomp .col-6{
+        width:100%;
+        margin:0 0;
+        
+        padding: 0px 0% 0 0%!important;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .invescomp:first-child .col-6 img{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .invescomp h1,    .invescomp p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hedge-fund img{
+        width: 88%;
+    margin-top: 34px;
+    }
+    .opal-slider .col-4:nth-child(2) {
+        width: 100%;
+    }
+    .opal-slider .col-4:first-child,    .opal-slider .col-4:last-child {
+        width: 0%;
+    }
+    .slick-dots {
+        bottom: -26px!important;
+    }
+    .ultrapremium h2{
+        text-align: center;
+    }
+    .two-sections .col-6{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .two-sections .col-6 img{
+        width: 100%;
+        height: 150px;
+    }
+    .on-top1 {
+        position: absolute;
+        left: 12%;
+        top: 12%;
+    }
+    .two-sections{
+
+    }
+    .on-top2 {
+        position: absolute;
+        left: 12%;
+        top: 12%;
+    }
+    .two-sections .col-4{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .readyinvest .col-12{
+        padding: 50px;
+    }
+    .first-footer-menu ul{
+        flex-direction: column;
+    }
+    .first-footer-menu ul li:not(last-child), .second-footer-menu ul li:not(last-child) {
+        border-right: none;
+    }
+    .second-footer-menu ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .rights-reserved .col-12{
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media (min-width: 530px) and (max-width: 639px){
+    .header-menu-list{
+        display:none;
+    }
+    .header .row {
+        padding: 0 0px;
+        margin: 0 auto;
+    }
+    .three-bars{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .three-bars div{
+        border-bottom: 3px solid white;
+        width: 20px;
+        height: 8px;
+    }
+    .logo-image img{
+        width: 150px;
+            height: 58px;
+    }
+    .header-menu-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .invescomp .col-6{
+        width:100%;
+        margin:0 0;
+        
+        padding: 0px 0% 0 0%!important;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .invescomp:first-child .col-6 img{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .invescomp h1,    .invescomp p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hedge-fund img{
+        width: 88%;
+    margin-top: 34px;
+    }
+    .opal-slider .col-4:nth-child(2) {
+        width: 100%;
+    }
+    .opal-slider .col-4:first-child,    .opal-slider .col-4:last-child {
+        width: 0%;
+    }
+    .slick-dots {
+        bottom: -26px!important;
+    }
+    .ultrapremium h2{
+        text-align: center;
+    }
+    .two-sections .col-6{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .two-sections .col-6 img{
+        width: 100%;
+        height: 150px;
+    }
+    .on-top1 {
+        position: absolute;
+        left: 12%;
+        top: 12%;
+    }
+    .two-sections{
+
+    }
+    .on-top2 {
+        position: absolute;
+        left: 12%;
+        top: 12%;
+    }
+    .two-sections .col-4{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .readyinvest .col-12{
+        padding: 50px;
+    }
+    .first-footer-menu ul{
+        flex-direction: column;
+    }
+    .first-footer-menu ul li:not(last-child), .second-footer-menu ul li:not(last-child) {
+        border-right: none;
+    }
+    .second-footer-menu ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .rights-reserved .col-12{
+        flex-direction: column;
+    }
+  }
+  
+@media (min-width: 640px) and (max-width: 1023px){
+
+  }
+@media (min-width: 640px) and (max-width: 684px) {
+
+  }
+@media (min-width: 685px) and (max-width: 767px){
+
+  }
+@media (min-width: 768px) and (max-width: 884px){
+
+  } 
+@media (min-width: 885px) and (max-width: 1023px){
+
+  }
+@media (min-width: 1024px) and (max-width: 1199px){
+
+  }
+  
+@media (min-width: 1200px) and (max-width: 1366px){
+
+  }
+  
+@media (min-width: 1367px) and (max-width: 1535px){
+
+  }
+ 
