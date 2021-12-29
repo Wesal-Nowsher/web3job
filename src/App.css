@@ -16,11 +16,11 @@
 }
 .repeat-style-bg-of-inner{
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 91%;
-  background-position-y: 59%;
-  background-position-x: 35%;
-  background-origin: padding-box;
+    background-position: center;
+    background-size: 900px 650px;
+    background-position-y: 27%;
+    background-position-x: 50%;
+    background-origin: padding-box;
 }
 .bg-green-top{
   
