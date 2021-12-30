@@ -16,7 +16,7 @@ import greendots from '../../assets/newbackgroundinform.png';
                            to build beautiful user interfaces that bring blockchain products into the mainstream. You will 
                            report to the Engineering Manager.
                         </p>
-                        <p className="mt-4 mb-4">What You Will DO:</p>
+                        <p className="mt-4 mb-4 text-uppercase">What You Will DO:</p>
                         <ul>
                             <li>Build with TypeScript + ReactJS to create responsive, performant user interfaces</li>
                             <li>Use Apollo + GraphQL Codegen to use our Golang GraphQL API</li>
@@ -27,7 +27,7 @@ import greendots from '../../assets/newbackgroundinform.png';
                             <li>Mentor junior engineers through code reviews and guidance</li>
                             <li>Work with web3 libraries to facilitate blockchain transactions</li>
                         </ul> 
-                        <p className="mt-4 mb-4">Requirements:</p>
+                        <p className="mt-4 mb-4 text-uppercase">Requirements:</p>
                         <ul>
                             <li>5+ years in a Fullstack or Frontend Engineering role</li>
                             <li>Familiar with ReactJS Hooks, Contexts, and other React patterns</li>
@@ -38,7 +38,7 @@ import greendots from '../../assets/newbackgroundinform.png';
                             <li>Have worked with product, design, and backend teams</li>
                             <li>Passionate about solving blockchain UX challenges (ex. wallets, gas)</li>
                         </ul>
-                        <p className="mt-4 mb-4">Bonuses:</p>
+                        <p className="mt-4 mb-4 text-uppercase">Bonuses:</p>
                         <ul>
                         <li>Experience with blockchain technologies, smart contracts, Ethereum</li>
                         <li>Familiarity with ethers.js or web3.js</li>
