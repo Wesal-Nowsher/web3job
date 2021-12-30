@@ -1,7 +1,7 @@
 import React from "react";
 import greenbg from '../../assets/Ellipse1.png';
 import greendots from '../../assets/greendot.png';
-
+import { NavLink } from "react-router-dom";
  function topmainsection(){
     return(
         <>
@@ -17,9 +17,15 @@ import greendots from '../../assets/greendot.png';
                                 <button className="btn">
                                 Join Discord
                                 </button>
-                                <button className="btn">
-                                Post a Job 
-                                </button>
+                                <NavLink
+                                    to="/positionform"
+                                    exact
+                                    >
+                                   <button className="btn btn2">
+                                    Post a Job 
+                                    </button>
+                    
+                                </NavLink>
                                 </div>
                             </div>
                             <div className="tags-button">
