@@ -241,3 +241,195 @@
   color:#FFFFFF;
   gap: 30px;
 }
+
+.formcompo label{
+  color:#FAFAF9;
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+h3.form-header{
+  font-family: 'Space Mono', monospace;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color:#FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.formcompo select option{
+  background-color: black;
+  padding: 15px 15px;
+}
+.formcompo input,.formcompo select{
+  background-color: transparent;
+    padding: 14px 14px;
+    margin: 7px 0 39px 0;
+    border: 1px solid grey;
+    color:#FFFFFF;
+}
+.salary-range input{
+  width: 100px;
+}
+.less-opc{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main1:first-child{
+  margin-top: 15px;
+}
+.main1 {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 8px 0px;
+}
+
+.main1  input[type=checkbox] {
+  display: none;
+}
+
+.main1 .geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border:1px solid grey;
+}
+
+
+.main1:hover input ~ .geekmark {
+  background-color: transparent;
+}
+
+.main1 input:active ~ .geekmark {
+  background-color: transparent;
+}
+
+.main1 input:checked ~ .geekmark {
+  background-color: #2FC135;
+}
+.main1 .geekmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.main1 input:checked ~ .geekmark:after {
+  display: block;
+}
+.main1 .geekmark:after {
+  left: 7px;
+    bottom: 5px;
+    width: 7px;
+    height: 14px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    transform: rotate( 
+45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roles input[type='radio'] {
+  -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid gray;
+    margin: 0px;
+    padding: 10px;  
+    position: relative;
+}
+
+.roles input[type='radio']:before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 50%;
+  right: 3px;
+    bottom: 4px;
+}
+
+.roles input[type="radio"]:checked:before {
+  background: #2FC135;
+  
+}
+
+.roles input[type="radio"]:checked {
+border-color:#2FC135;
+}
+
+.roles .role {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.roles .checkbox label {
+  margin-bottom: 20px !important;
+}
+
+.roles {
+  
+  margin-bottom: 15px;
+  display: flex;
+    align-items: center;
+}
+
+
+
+.texarea-postjob{
+  background: transparent;
+  height: 200px;
+  margin-bottom: 22px;
+  padding: 8px;
+}
+
+.post-job-btn{
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  color: #F2FFF2;
+  font-weight: 300;
+  background-color: #2FC135;
+  border-radius: 2px;
+  padding: 10px 35px;
+  width:180px;
+}
+.extra-margins{
+  margin-top:250px;
+}
