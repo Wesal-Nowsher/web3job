@@ -44,7 +44,7 @@ import React from "react";
                                 <input type="checkbox" />
                                 <span class="geekmark"></span>
                             </label>
-                            <label class="main1">internship
+                            <label class="main1">Internship
                                 <input type="checkbox" />
                                 <span class="geekmark"></span>
                             </label>
