@@ -17,7 +17,7 @@ function App() {
         <Routes>
               <Route exact path='/' element={<Home />} />
               <Route exact path='/positionform' element={<Positionpageform />} />
-              <Route exact path='/jobdescription' element={<Jobdec />} />
+              <Route exact path='/jobdescription/:index' element={<Jobdec />} />
         </Routes>
     </div>
   );

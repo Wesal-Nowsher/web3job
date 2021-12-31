@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import axios from "axios";
 import icons from '../../assets/icons.png';
 import loaderimg from '../../assets/loader.png';
+import { NavLink } from "react-router-dom";
 
  function Tabledata(){
     
@@ -30,7 +31,7 @@ import loaderimg from '../../assets/loader.png';
                          </div> 
                     }
                  {
-                    jobData && jobData.length>0 && jobData.map((item)=>{
+                    jobData && jobData.length>0 && jobData.map((item,index)=>{
                         return(
                             <div className="row 4">
                             <div className="col-5 d-flex">
@@ -38,7 +39,13 @@ import loaderimg from '../../assets/loader.png';
                                     <img src={icons} />
                                 </div>
                                 <div className="d-flex flex-column desifg">
-                                    <h4>{item.title}</h4>
+                                   
+                                        <NavLink
+                                        to={`/jobdescription/${index}`}
+                                        exact> <h4 className="cursor-pointer">
+                                        {item.title}</h4>
+                                        </NavLink>
+                                    
                                     <p>{item.company}</p>
                                 </div>
                             </div>

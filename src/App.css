@@ -434,7 +434,9 @@ border-color:#2FC135;
   margin-top: 250px !important;;
 }
 
-
+.tabledata-padding a{
+text-decoration: none;
+}
 .jobdesc{
   width: 100%;
   margin-top: 5%;
