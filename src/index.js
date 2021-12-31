@@ -5,16 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter } from 'react-router-dom'
-
+import store from './store/configureStore';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Provider } from "react-redux";
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-    </BrowserRouter>,
+<Provider store={store}>
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+</Provider>,
   document.getElementById('root')
 );
 

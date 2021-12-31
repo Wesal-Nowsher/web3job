@@ -2,8 +2,10 @@ import React from "react";
 import greenbg from '../../assets/Ellipse1.png';
 import greendots from '../../assets/greendot.png';
 import { NavLink } from "react-router-dom";
-                              
- function topmainsection(){
+import { connect } from "react-redux";
+import {tags} from "./tags"
+import { activetagf } from "./actions";                              
+ function topmainsection({jobData,activetagf,activetag}){
     return(
         <>
                 <div className="row repeat-style-bg-of-inner" style={{backgroundImage: "url(" +  greendots  + ")"}}>
@@ -20,7 +22,7 @@ import { NavLink } from "react-router-dom";
                                 <h1 className="text-uppercase text-center">
                                 comprehensive job board for Web3 positions
                                 </h1>
-                                <p className="little-text text-center">Browse 8,130 jobs in Web3 at 910 Web3 Projects</p>
+                                <p className="little-text text-center">Browse {jobData.length} jobs in Web3 at 910 Web3 Projects</p>
                                 <div className="two-buttons ">
                                 <button className="btn">
                                 Join Discord
@@ -37,37 +39,16 @@ import { NavLink } from "react-router-dom";
                                 </div>
                             </div>
                             <div className="tags-button">
-                                <button className="btn">Solidity</button>
-                                <button className="btn">Defi</button>
-                                <button className="btn">NFT</button>
-                                <button className="btn">Web3 js</button>
-                                <button className="btn">Solana</button>
-                                <button className="btn">Front end</button>
-                                <button className="btn">Back end</button>
-                                <button className="btn">Full stack</button>
-                                <button className="btn">Mobile</button>
-                                <button className="btn">React</button>
-                                <button className="btn">JavaScript</button>
-                                <button className="btn">Node</button>
-                                <button className="btn">Ruby</button>
-                                <button className="btn">Java</button>
-                                <button className="btn">Scala</button>
-                                <button className="btn">Marketing</button>
-                                <button className="btn">Product manager</button>
-                                <button className="btn">Non-tech</button>
-                                <button className="btn">community Manager</button>
-                                <button className="btn">Project manager</button>
-                                <button className="btn">Sales</button>
-                                <button className="btn">Customer Support</button>
-                                <button className="btn">Entry level</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
-                                <button className="btn">Golang</button>
+                                {
+                                    tags && tags.map((item)=>{
+                                            return(
+                                                <button className={`btn ${activetag===item ? "active":""}`}
+                                                 onClick={()=>activetagf(activetag===item ? "":item)}>{item}</button>
+                                            )
+                                    })
+                                }
+
+                                
                             </div>
                     </div>
                 </div>
@@ -76,6 +57,16 @@ import { NavLink } from "react-router-dom";
         </>
     )
 }
+const mapStateToProps = ({ home }) => {
+    return {
+        activetag:home.activetag
+    };
+};
 
-export default topmainsection;
+export default connect(
+    mapStateToProps,
+    { activetagf }
+)(topmainsection);
+
+
 

@@ -6,6 +6,7 @@ import Positionpageform from "./page/positionform/index"
 import Jobdec from './page/jobdescirption'
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'; 
 import React from "react";
+import { connect } from "react-redux";
 
 
 
@@ -23,4 +24,15 @@ function App() {
   );
 }
 
-export default App;
+const mapStateToProps = ({ }) => {
+  return {
+
+
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  {}
+)(App);
+
