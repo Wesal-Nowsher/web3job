@@ -5,8 +5,8 @@ import greendots from '../../assets/newbackgroundinform.png';
  function topmainsection(){
     return(
         <>
-                <div className="row repeat-style-bg-of-inner jobdesc-details" >
-                    <div className="col-6   d-flex flex-column padding-col-6-first " 
+                <div className="row justify-content-center repeat-style-bg-of-inner jobdesc-details" >
+                    <div className="col-5   d-flex flex-column padding-col-6-first " 
                     >
                         <label>Job details</label>
                         <p>
@@ -47,9 +47,9 @@ import greendots from '../../assets/newbackgroundinform.png';
                         <li>Have worked with NATs or Kafka   </li>
 
                         </ul>
-                        <button className="post-job-btn mt-5">Apply now</button>
+                        <button className="post-job-btn mt-5"><a href="https://cnn.com">Apply now</a></button>
                     </div>
-                    <div className="col-6   d-flex flex-column padding-col-6" 
+                    <div className="col-5   d-flex flex-column padding-col-6" 
                     >
                         <label className="text-uppercase">company name</label> 
                         <p>Tesla</p>
@@ -63,7 +63,7 @@ import greendots from '../../assets/newbackgroundinform.png';
                         <p>Remote</p>
                         <label>Earing range</label>
                         <p>$80k -$150k</p>
-                        <button className="post-job-btn mt-5">Apply now</button>
+                        <button className="post-job-btn mt-5"><a href="https://cnn.com">Apply now</a></button>
                     </div>
                     <div className="copyright-section  extra-margins">
                                 <p>©2022 DAOvelopers</p>

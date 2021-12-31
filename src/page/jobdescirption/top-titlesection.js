@@ -9,8 +9,8 @@ import { useParams } from "react-router-dom";
     console.log(index && index);
         return(
         <>
-                <div className="row repeat-style-bg-of-inner" >
-                    <div className="col-12 p-0 bg-green-top repeat-style-bg-of-inner  d-flex flex-column justify-content-center align-items-center" 
+                <div className="row justify-content-center repeat-style-bg-of-inner" >
+                    <div className="col-10 p-0 bg-green-top repeat-style-bg-of-inner  d-flex flex-column justify-content-center align-items-center" 
                     >
                            <div className="  jobdesc d-flex flex-column " > 
                                <p className="web3-jobs text-center">Web3 jobs</p>   

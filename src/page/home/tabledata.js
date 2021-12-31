@@ -64,7 +64,7 @@ import { NavLink } from "react-router-dom";
                             </div>
                             <div className="col-2 d-flex justify-content-end align-items-center">
                                 <div className="location"><p>6y</p></div>
-                                <div className="apply-btn"><button className="btn">Apply</button></div>
+                                <div className="apply-btn"><button className="btn"><a href="https://cnn.com">Apply now</a></button></div>
                             </div>
                         </div>
                         )

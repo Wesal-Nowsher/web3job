@@ -156,6 +156,11 @@
   color:#FFFFFF!important;
   border-radius: 1px;
 }
+.apply-btn button a{
+  color:#FFFFFF!important;
+  border-radius: 1px;
+  text-decoration: none;
+}
 
 
 .bottomsection-padding{
@@ -419,7 +424,11 @@ border-color:#2FC135;
   margin-bottom: 22px;
   padding: 8px;
 }
-
+.post-job-btn a{
+  color: inherit!important;
+  text-decoration: none;
+  
+}
 .post-job-btn{
   font-size: 18px;
   font-family: 'Space Mono', monospace;
