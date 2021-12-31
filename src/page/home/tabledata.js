@@ -39,7 +39,6 @@ import { NavLink } from "react-router-dom";
                                     <img src={icons} />
                                 </div>
                                 <div className="d-flex flex-column desifg">
-                                   
                                         <NavLink
                                         to={`/jobdescription/${index}`}
                                         exact> <h4 className="cursor-pointer">

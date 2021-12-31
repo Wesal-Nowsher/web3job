@@ -2,13 +2,21 @@ import React from "react";
 import greenbg from '../../assets/Ellipse1.png';
 import greendots from '../../assets/greendot.png';
 import { NavLink } from "react-router-dom";
+                              
  function topmainsection(){
     return(
         <>
                 <div className="row repeat-style-bg-of-inner" style={{backgroundImage: "url(" +  greendots  + ")"}}>
                     <div className="col-12 bg-green-top repeat-style-bg-of-inner  d-flex flex-column justify-content-center align-items-center" style={{backgroundImage: "url(" +  greenbg  + ")"}}>
                            <div className=" top-main-section d-flex flex-column align-items-center"> 
-                               <p className="web3-jobs text-center">Web3 jobs</p>   
+                               <p className="web3-jobs text-center">
+                                         <NavLink
+                                        to={`/`}
+                                        exact> 
+                                        Web3 jobs
+                                        </NavLink>
+                                   
+                                   </p>   
                                 <h1 className="text-uppercase text-center">
                                 comprehensive job board for Web3 positions
                                 </h1>
